@@ -48,3 +48,21 @@ This is the current components structure
 ### blog-authors
 
 ![](./images/blog-author.png)
+
+### Stories list content
+
+![](./images/stories-list-structure.png)
+
+### Some examples of stories
+
+Home story with a list of blog posts
+
+![](./images/home-story.png)
+
+Blog posts story with a list of authors
+
+![](./images/blog-post-story.png)
+
+Author's story
+
+![](./images/author-story.png)
