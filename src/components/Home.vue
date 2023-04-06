@@ -2,14 +2,14 @@
 import { useStoryblok } from '@storyblok/vue';
 const apiOptions = {
   version: 'draft',
-  resolve_relations: ['blog-posts.posts'],
+  resolve_relations: ['blog-posts.posts', 'blog-author.authors'],
 }
 
 const bridgeOptions = {
   // you need to configure a custom parent to connect with the app
   // and this config should be the URL of the app that you are using
   customParent: 'https://app.storyblok.com/',
-  resolveRelations: ['blog-posts.posts']
+  resolveRelations: ['blog-posts.posts', 'blog-author.authors']
 }
 
 const story = await useStoryblok('home', apiOptions, bridgeOptions);
