@@ -11,6 +11,7 @@ import Grid from './components/grid.vue'
 import Teaser from './components/teaser.vue'
 import Page from './components/page.vue'
 import BlogAuthors from './components/blog-authors.vue'
+import InnerPost from './components/inner-post.vue'
  
 const app = createApp(App);
 
@@ -20,6 +21,7 @@ app.component('grid', Grid)
 app.component('teaser', Teaser)
 app.component('page', Page)
 app.component('blog-authors', BlogAuthors)
+app.component('inner-post', InnerPost)
  
 app.use(StoryblokVue, {
   bridge: process.env.NODE_ENV !== 'production',
